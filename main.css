@@ -1,0 +1,26 @@
+/*aspectos generales: bordes y color de fondo de calculadora*/
+.calculadora { border:.1em rgb(247, 247, 252) ridge; width: fit-content;height: max-content; text-align: center;
+    background-color: #494948; }
+
+/*pantalla de visualización: bordes, posición, color de fondo, estilo letra.*/
+#textoPantalla { width: 12em;height: 3em; border: 2px black solid; text-align: right; 
+      position: relative; left:.5em ;  padding: 0px 5px;
+      background-color: white; font-family: "courier new";
+      overflow: hidden;}
+
+/*botones normales: anchura y margen*/
+.calculadora [type=button] { height: 4em; width: 4em; padding: 0;color: rgb(255, 255, 255);background-color: black;left: .5em;right: .5e; }
+/*botones especiales*/
+.calculadora input.largo { color: rgb(250, 249, 249); width: 4em;height: 4em; background-color: rgb(32, 32, 32); }
+.calculadora input.operar{height: 4em; width: 4em; padding: 0;color: white;background-color: tomato;}
+.calculadora input.operador{height: 4em; width: 4em; padding: 0;color: white;background-color: dimgray;}
+table {     font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;    margin: 45px;     width:auto; text-align: left;    border-collapse: collapse; }
+
+th {     font-size: 13px;     font-weight: normal;     padding: 8px;     background: #2b2c2c;
+    border-top: 4px solid #aabcfe;    border-bottom: 1px solid #fff; color: #039; }
+
+td {    padding: 8px;     background: #444446;     border-bottom: 1px solid #fff;
+    color: rgb(255, 255, 255);    border-top: 1px solid transparent; }
+
+tr:hover td { background: #d7fdd0; color: rgb(0, 0, 0); }
